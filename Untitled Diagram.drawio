@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T14:44:45.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="a07krWGqLb8LsLxg29SW" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-26T16:31:40.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="sND-qVuUCBl4Nob-ifE0" version="13.0.1" type="github">
   <diagram id="BWhkU9srI1xOhRTIJn9W" name="Page-1">
     <mxGraphModel dx="1004" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="t3MX_UrXBGOTOU08i3uL-5" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="380" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t3MX_UrXBGOTOU08i3uL-6" value="주간/일간&lt;br&gt;날씨 정보 제공" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="t3MX_UrXBGOTOU08i3uL-6" value="사용자 정의 지역/ &lt;br&gt;현재 위치 날씨 확인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="323" width="130" height="57" as="geometry" />
         </mxCell>
         <mxCell id="p1u-dJXpqbsuD1TTKyAn-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.642;exitY=0.998;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;" parent="1" source="t3MX_UrXBGOTOU08i3uL-7" target="p1u-dJXpqbsuD1TTKyAn-6" edge="1">
@@ -79,19 +79,19 @@
             <mxPoint x="-15" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bDFICuMdAxdRrCMjnlfR-1" value="모바일 기기의&lt;br&gt;GPS 기능 On&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bDFICuMdAxdRrCMjnlfR-39" value="&amp;lt;include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDFICuMdAxdRrCMjnlfR-2">
+          <mxGeometry x="-0.3769" relative="1" as="geometry">
+            <mxPoint x="-51.72" y="-52.58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDFICuMdAxdRrCMjnlfR-1" value="모바일 기기&lt;br&gt;GPS&amp;nbsp; 활성화&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="310" width="130" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="bDFICuMdAxdRrCMjnlfR-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bDFICuMdAxdRrCMjnlfR-6" target="p1u-dJXpqbsuD1TTKyAn-12">
+        <mxCell id="bDFICuMdAxdRrCMjnlfR-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bDFICuMdAxdRrCMjnlfR-6" target="t3MX_UrXBGOTOU08i3uL-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bDFICuMdAxdRrCMjnlfR-6" value="모바일 기기의&lt;br&gt;GPS 기능 On&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bDFICuMdAxdRrCMjnlfR-6" value="사용자 정의 지역&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="387.5" y="153" width="130" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="bDFICuMdAxdRrCMjnlfR-10" value="&amp;lt;include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="361.00472874793644" y="351.49653918085374" as="geometry">
-            <mxPoint x="-22" y="-165" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="bDFICuMdAxdRrCMjnlfR-11" value="추천 코디스타일&lt;br&gt;즐겨찾기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="555" width="120" height="60" as="geometry" />
