@@ -5,7 +5,7 @@ from keras.models import Model
 from keras import optimizers
 from keras.preprocessing.image import ImageDataGenerator
 from keras.layers.normalization import BatchNormalization
-# 모듈 선언
+
 img_width, img_height = 220, 220   # 이미지 사이즈 조절
 batch_size=32
 epochs=50
