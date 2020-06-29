@@ -15,5 +15,6 @@
    - 김승혁 : zldnl9070@naver.com (결정트리구조)
    - 백정훈 : qorwjdgns51@naver.com (CNN 딥러닝/ 옷 카테고리 분류)
 
+
 * 의류 데이터셋 링크(상위 카테고리, 하위 카테고리)
    - https://drive.google.com/drive/folders/1gkdehJZxo8C0GtOaKiLoOlLKl2eAqTd0?usp=sharing
