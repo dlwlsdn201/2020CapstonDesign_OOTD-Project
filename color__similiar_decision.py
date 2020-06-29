@@ -1,5 +1,5 @@
 from math import sqrt
-import color__get_color
+import get_color
 
 color_dic = {
     'pink':'#FF00FF',
@@ -114,8 +114,8 @@ def decision_similiar_color(origin_HSV, product_HSV):
     print(f"product_HSV : {product_HSV}")
 
     #H_경계값 지정
-    if product_HSV[1] > 0.1 and product_HSV[2] > 0.1:
-        if (origin_HSV[0] == 0 or origin_HSV[0] == 360):
+    if product_HSV[1] > 0.2 and product_HSV[2] > 0.2 :
+        if (origin_HSV[0] == 0 or origin_HSV[0] == 360) and origin_HSV[1] > 0.2 and origin_HSV[2] > 0.2:  #Red색상일 경우
             H_boundary = list(range(330, 360)) + list(range(0, 31))
         elif origin_HSV[0] > 330  :
             H_boundary = list(range(int(origin_HSV[0]-30), int((origin_HSV[0]+31)%360)))
@@ -130,8 +130,8 @@ def decision_similiar_color(origin_HSV, product_HSV):
         else:
             return print(f"선택한 색상과 다른 계열입니다.{False}")
 
-    elif origin_HSV[1] < 0.1 and product_HSV[2] > 0.2 :
-        if  product_HSV[1] < 0.1 :  #white
+    elif origin_HSV[1] < 0.2 and product_HSV[2] > 0.2 :
+        if  product_HSV[1] < 0.2 :  #white
             return print(f"유사한 색상 계열입니다.{True}")
         else:
             return print(f"선택한 색상과 다른 계열입니다.{False}")
