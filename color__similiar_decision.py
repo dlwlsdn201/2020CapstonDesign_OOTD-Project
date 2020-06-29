@@ -154,4 +154,4 @@ def init(color, clothe_color):    #main 함수 (사용자 선택 색상, 옷의 
     user_color = color_dic[color]  #사용자가 선택한 색상의 hexcode
     product_color = clothe_color   #상품의 색상의 hexcode
     Calculate_color_similiar(user_color,product_color)
-    
+   
